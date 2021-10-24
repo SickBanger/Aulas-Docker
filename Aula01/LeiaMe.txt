@@ -1,0 +1,6 @@
+Objetivos:
+
+- Iniciar uma imagem específica
+- Acessar o container
+- Editar um arquivo
+- Validar a edição

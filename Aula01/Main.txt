@@ -1,0 +1,31 @@
+Criar um container com uma imagem específica e definir um nome específico
+# docker container run --name httpd apache 
+
+Acessar o container e Gerenciar suas configurações
+# Docker container exec -t -i apache bash
+
+--Atualizar pacotes do linux e instalar as aplicações necessárias 
+
+Buscar atualizações
+#apt-get update 
+
+Instalar o nano
+#apt-get install -y nano 
+
+Listar pacotes
+#dpkg -i | grep libc
+
+Listar diretórios
+# ls
+
+Acessar o diretório "htdocs"
+# cd htdocs/
+
+Editar o arquivo index.html 
+# echo Nova Mensagem > index.html
+
+Sair do Container 
+# exit
+
+Validar alterações 
+# curl (IP do Container)
